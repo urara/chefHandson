@@ -22,10 +22,10 @@ describe file('/etc/passwd') do
   it { should be_file }
 end
 
-describe file('/var/log/httpd') do
-  it { should be_directory }
-end
-
-describe file('/etc/httpd/conf/httpd.conf') do
-  it { should contain 'ServerName www.example.jp' }
-end
+#describe file('/var/log/httpd') do
+#  it { should be_directory }
+#end
+#
+#describe file('/etc/httpd/conf/httpd.conf') do
+#  it { should contain 'ServerName www.example.jp' }
+#end
