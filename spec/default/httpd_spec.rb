@@ -26,6 +26,7 @@ end
 #  it { should be_directory }
 #end
 #
+#
 #describe file('/etc/httpd/conf/httpd.conf') do
 #  it { should contain 'ServerName www.example.jp' }
 #end
